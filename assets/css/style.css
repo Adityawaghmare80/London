@@ -1,0 +1,217 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+   /*###################################header section css starts#######################################*/
+
+.navbar-default, .navigationInfo{
+    background-color: white;
+	border-style: none;
+}
+
+.navbar-brand>img {
+    display: block;
+    margin-right: 150px;
+	width: 110px;
+}
+
+.navigationInfo .navbar-nav>li>a {
+    color: #777;
+    font-size: 18px;
+    font-weight: bold;
+    color: #006a4d;
+    padding-top: 40px;
+}
+
+.navbar-collapse .btn-default {
+    color: #ffff;
+    background-color: #69be28;
+    border-radius: 0;
+	border-color : #69be28;
+    margin: 30px 0  0 255px;
+	padding: 12px;
+}
+
+.navigationInfo .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #69be28;
+    background-color: transparent;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+
+.headerImg {
+    background-image: url('../images/image.jpg');
+    width: 100%;
+    height: calc(100vh - 76px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerImg .imgText{
+	 position: absolute;
+	 left: 50%;
+	 top: 55%;
+	 transform: translate(-50%, -50%);
+}
+
+.imgText h3{
+	font-size: 32px;
+	font-weight: bold;
+	color: #ffff;
+	margin: 0 0 25px;
+}
+
+.imgText h1{
+	font-size: 58px;
+	font-weight: bold;
+	color: #ffff;
+	margin: 0 0 50px;
+}
+
+.imgText h4{
+	font-size: 22px;
+	font-weight: bold;
+	color: #ffff;
+	margin: 0;
+}
+
+
+   /*###################################eventpage section css starts#######################################*/
+   
+.eventPage{
+	padding: 125px 0 125px;
+}  
+
+.eventPage h1{
+	font-size: 36px;
+	font-weight: bold;
+	color: #006a4d;
+	margin: 0 0 20px;
+} 
+
+.eventPage .paraOne{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 25px;
+} 
+
+.eventPage h4{
+	font-size: 20px;
+	font-weight: bold;
+	color: #006a4d;
+	margin: 0 0 15px;
+} 
+
+.eventPage .paraTwo{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 15px;
+} 
+
+.eventPage .paraThree{
+	font-size: 16px;
+	color: #000;
+	margin: 0;
+} 
+
+.eventImg{
+	margin: 65px 0 0 95px;
+}
+
+
+   /*###################################speakers section css starts#######################################*/
+
+.speakers{
+	background-color: #006a4d;
+	padding: 105px 0 100px;
+}
+
+.speakers h2{
+	font-size: 36px;
+	font-weight: bold;
+	color: #ffff;
+	margin: 0 0 25px;
+}
+
+.speakers h4{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffff;
+	margin: 0 0 50px;
+}
+
+.confirmedS{
+    list-style: none;
+    color: #ffff;
+    margin: 10px 0 0;
+}
+
+.confirmedS .list1{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.confirmedS .list2, .list3{
+	font-size: 14px;
+}
+
+.speakers .btn-default {
+    color: #fff;
+    background-color: #006a4d;
+    border-color: #fff;
+    border-radius: none;
+    border-radius: inherit;
+    margin-top: 70px;
+}
+
+     /*###################################footer section css starts#######################################*/
+	 
+.footer{
+	background-color: #3c3c3c;
+	padding: 80px 0 75px;
+}	 
+
+.footer .year{
+	font-size: 16px;
+	color: #ffff;
+	margin: 30px 0 0;
+}
+
+.followUs{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffff;
+	margin: 0 0 10px;
+}
+
+.footerLinks li{
+	display: inline-block;
+	color: #ffff;
+}
+
+.footerLinks li a {
+    color: #ffff;
+    margin-right: 2px;
+    border-radius: 50%;
+    padding: 5px;
+    border-style: groove;
+}
+
+@media all and (max-width:768px) {
+	.eventImg{
+		width: 100%;
+		margin: 20px 0 0 ;
+		padding: 0;
+	}
+	.confirmedS {
+    list-style: none;
+    color: #ffff;
+    margin: 10px 0 25px 0;
+    }
+}
